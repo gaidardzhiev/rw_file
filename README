@@ -1,3 +1,1 @@
 reading from and writing to files with fopen in C
-
-gcc fopen.c -o fopen
