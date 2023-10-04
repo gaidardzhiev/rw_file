@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdbool.h>
 #include <stdlib.h>
-#include <sys/stat.h>
 #define ERROR (-1)
 
 long size(char *filename) {
