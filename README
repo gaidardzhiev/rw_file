@@ -1,2 +1,2 @@
-fopen.c - reading from and writing to files with fopen in C
+fopen.c - reading from and writing to files with fopen
 size.c - determine file size
