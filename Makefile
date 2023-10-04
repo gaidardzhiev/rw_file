@@ -5,6 +5,7 @@ all: size
 
 fopen: fopen.c
 	$(CC) $(CFLAGS) fopen.c -o fopen
+
 size: size.c
 	$(CC) $(CFLAGS) size.c -o size
 
