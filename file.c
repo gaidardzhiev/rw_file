@@ -13,7 +13,7 @@ int main(int argc, char **argv) {
 	FILE *fp = fopen(fileName, "rb");
 	if (fp == NULL) {
 		perror("fopen error...\n");
-		return EXIT_FAILURE;
+		exit(EXIT_FAILURE);
 	}
 
 	const int MAGIC_BYTES = 3;
