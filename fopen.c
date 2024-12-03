@@ -17,5 +17,5 @@ int main() {
 	}
 	fclose(r);
 	fclose(w);
-	return 0;
+	return EXIT_SUCCESS;
 }
