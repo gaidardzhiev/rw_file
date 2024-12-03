@@ -1,16 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define ERROR (-1)
+#define ERROR (1)
 
 long size(char *filename) {
 	FILE *f = fopen(filename, "r");
 	if (f == NULL) {
-		return ERROR;
+		return 1;
 	}
 	if (fseek(f, 0, SEEK_END) < 0) {
 		fclose(f);
-		return ERROR;
+		return 1;
 	}
 	long lenght = ftell(f);
 	fclose(f);
