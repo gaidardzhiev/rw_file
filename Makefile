@@ -1,4 +1,4 @@
-CC=gcc
+CC=tcc
 CFLAGS=-g -Wall
 CLANG=clang
 all: fopen
